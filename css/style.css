@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-size: 16px;
+	list-style-type: none;
+}
+
+.menu{
+	background-color: #fff;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+}
+
+.menu a{
+	color: #000;
+    display: inline-block;
+    padding: 15px 60px;
+}
+
+.menu a:hover{
+	background-color: #ccc;
+}
+
+.header{
+	text-align: center;
+	background: url("../img/polygons.png") no-repeat top center;
+	color: #fff;
+	padding: 200px 0;
+}
+
+.header h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.header p{
+	padding: 40px 0 30px 0;
+}
+
+.header a{
+	font-size: 17px;
+	color: #000;
+	padding: 12px 24px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.about-company{
+	max-width: 1200px;
+	background-color: #fff;
+	padding: 40px 0;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.about-company img{
+	width: 400px;
+	float: right;
+	margin: 30px;
+	margin-top: 0;
+}
+
+h2{
+	font-size: 26px;
+	text-align: center;
+
+}
+
+.about-company p{
+	text-align: left;
+	padding: 20px;
+}
+
+.team{
+	text-align: center;
+}
+
+.deviz{
+	padding: 20px 0;
+}
+
+.members{
+	display: inline-block;
+	width: 20%;
+	padding: 20px;
+	margin: 20px 10px;
+	box-shadow: 0px 2px 5px #ccc;
+	text-align: left;
+
+}
+
+.members .position{
+	opacity: 0.6;
+}
+
+.members img{
+	width: 100%;
+}
+
+.members h3{
+	font-weight: 400;
+	font-size: 24px;
+	padding-top: 13px;
+}
+
+.members a{
+	display: inline-block;
+	width: 100%;
+	background-color: #055b73;
+	border-radius: 10px;
+	color: #fff;
+	padding: 14px 0;
+	text-align: center;
+}
+
+.position{
+	padding-top: 15px;
+}
+
+.discription{
+	padding: 10px 0;
+}
+
+.prices{
+	text-align: center;
+	background-color: #6e6e6e;
+}
+
+.prices h2{
+	color: #fff;
+	padding-top: 50px;
+}
+
+.prices p{
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.tarif{
+	display: inline-block;
+	width: 30%;
+	min-width: 300px;
+	margin: 10px;
+	vertical-align: middle;
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+
+.tarif p{
+	color: #000;
+}
+
+.price{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.tarif li{
+	border-bottom: 1px solid #ddd;
+	padding: 16px 9px;
+
+}
+
+.tarif .tarif-name{
+	color: #fff;
+	background-color: #000;
+	font-size: 24px;
+	padding: 30px 0;
+}
+
+
+.tarif .best{
+	background-color: #055b73;
+	padding: 48px 0;
+}
+
+.tarif li:last-child{
+	background-color: #f1f1f1;
+	padding: 24px 0;
+}
+
+.tarif a{
+	background-color: #000;
+	padding: 12px 24px;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.tarif a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.important{
+	font-weight: bold;
+}
+
+.period{
+	opacity: 0.4;
+}
+
+.contact{
+	text-align: center;
+	background-color: #f1f1f1;
+	padding: 40px 0;
+}
+
+.contact-adres{
+	background-image: url("../img/address.png");
+}
+
+.contact-phone{
+	background-image: url("../img/phone.png");
+}
+
+.contact-mail{
+	background-image: url("../img/mail.png");
+}
+
+.contact-info{
+	text-align: left;
+	padding-left: 30px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-left: 5%;
+}
+
+input,textarea{
+	width: 90%;
+	padding: 8px;
+}
+
+
+.contact p{
+	margin-top: 15px;
+}
+
+.contact h2{
+	padding-top: 50px;
+}
+
+input[type=text]{
+	
+}
+
+input[type=submit]{
+	width: 200px;
+	text-align: center;
+	padding: 8px 16px;
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	border-radius: 15px;
+}
+
+input[type=submit]:hover{
+	color: #000;
+	background-color: #fff;
+}
+
+.footer{
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+}

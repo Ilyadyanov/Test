@@ -1,0 +1,59 @@
+@media(max-width: 575px){
+	.menu{
+		position: static;
+	}
+	.menu a{
+		width: 100%;
+		padding: 20px 0;
+	}
+}
+
+@media(max-width: 890px){
+	.menu a{
+		padding: 15px 30px;
+	}
+
+	.header{
+		background-size: cover;
+		background-position: center center; 
+	}
+
+	.members{
+		width: 40%;
+	}
+
+	.period{
+		padding: 0;
+		margin: 0;
+	}
+
+	.prices p{
+		padding-top: 10px;
+		padding-bottom: 5px;
+	}
+
+	.tarif li{
+		padding: 13px 9px;
+	}
+}
+
+@media(max-width: 590px){
+	.menu a{
+		padding: 15px 20px;
+	}
+
+	.prices p{
+		padding-top: 8px;
+		padding-bottom: 3px;
+	}
+
+	.tarif li{
+		padding: 11px 7px;
+	}
+}
+
+@media(max-width: 970px){
+	.tarif{
+		width: 60%;
+	}
+}
